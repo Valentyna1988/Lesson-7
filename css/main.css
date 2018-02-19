@@ -1,0 +1,197 @@
+
+@font-face{
+font-family: 'Tahoma-Regular';
+src: url('../fonts/Tahoma-Regular.ttf');
+font-weight: normal;
+font-style: normal;}
+
+
+
+
+body{
+	background-image: url(../img/Back_cycle.jpg);
+	height: 1080px;
+	width: 100%;
+	background-repeat: no-repeat;}
+
+.menu{
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-image: url(../img/head.jpg);
+	background-size: contain;}
+
+
+.submenu{
+	width: 900px;
+	height: 40px;
+	display: flex;
+	flex-direction: row-reverse;}
+.item>a{
+	font-family:  'Tahoma-Regular';
+	color:  #4f9fd8;
+	text-decoration: none;
+	font-stretch: ultra-condensed;}
+
+
+.item{
+	width: 110px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	line-height: 35px;}
+
+
+.item:nth-child(2){
+	width: 270px;
+	color: white;
+	background: linear-gradient(to top, #2e7ac4, #4faedb);
+}
+.item:nth-child(3){
+	text-align: left;
+	width: 170px;
+	padding-left: 10px;
+}
+
+
+.item:nth-child(9){
+	text-align: center;
+	width: 160px;
+}
+.item:first-child{
+	width: 25px;}
+.item:hover{background: #4eabda;}
+
+.item:hover>a{color: white;}
+a.first{color: white;}
+
+.flag{
+	width: 35px;
+	height: 30px;
+	margin-top: 2px;
+	text-align: right;
+	padding-top: 5px;
+	border-left: 1px solid #56a2dc;}
+
+a.last{	color: white;}
+
+.fon{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;}
+
+.body{width: 500px;
+	height: 600px;
+	background-image: url(../img/body.png);}
+
+p{	font-family: 'Tahoma-Regular';
+	font-size: 20px;
+	text-align: center;
+	color: #d8d8d7;
+	padding-top: 15px;}
+
+.facebook{
+	width: 250px;
+	height: 30px;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: white;
+	background: linear-gradient(to top, #2d4176, #3f5795);
+	box-shadow:  0px 1px 2px 0px #7889b7 inset;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;}
+
+div.facebook>div{line-height: 25px;}
+
+.f{	text-align: center;
+	width: 30px;
+	border-right: 1px solid #213c71;
+	padding-top: 2px;}
+
+.face{width: 220px;
+	border-left: 1px solid #4d68ab;}
+
+.face>a{color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	font-family: 'Tahoma-Regular';}
+
+b{	font-family: 'Tahoma-Regular';
+	font-weight: bold;}
+
+.icon{padding-left: 15px;}
+
+
+legend{	color: #999999;}
+
+menu{display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 50px;
+	width: 250px;
+	margin: auto;
+	border-top: 2px groove grey;}
+
+input{
+		box-sizing: border-box;
+		margin: auto;
+		margin-top: 20px;
+		width: 250px;
+		height: 30px;
+		padding-left: 10px;
+		background: linear-gradient(to top, #111111, #100f0f);
+		border: none;}
+input:focus{
+	background: #1f5384;
+ 	outline: 0;
+    outline-offset: 0;
+    color: white; 			
+    box-shadow:  0px 0px 13px 3px #538db5;}
+label>input{
+	width: 15px;
+	height: 15px;}
+
+button{	width: 170px;
+	height: 35px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 5px;
+	background: linear-gradient(to top, #2e7ac4, #50aedb);
+	font-family: 'Tahoma-Regular';
+	color: #ffffff;
+	font-size: 15px;
+	border: none;
+	box-shadow: 0px 0px 2px 0px #6bb8e7;}
+
+
+label>span{
+	font-family: 'Tahoma-Regular';
+	font-size: 14px;
+	color: #d8d8d7;
+	padding-left: 15px;}
+
+
+footer>p{
+	font-size: 12px;
+	font-weight: normal;
+	color: #bfbebd;}
+
+
+
+
+
+
+
+
+
+
